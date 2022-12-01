@@ -1,0 +1,19 @@
+<form action = "/add" method="Post"> <!--forma como os dados de seu formulario serao enviados para o banco de dados-->
+    <p> Titulo: </p>
+    <input type="text" name="titulo"><!--precisaremos do nome para cadastrar as informacoes no bd-->
+    <p>Conteudo</p>
+    <textarea name="conteudo"></textarea>
+    <button type="Enviar">Cadastrar Postagem </button>
+</form>
+
+<!-- Nao precisa colocar a estrutura html, apenas o conteudo que queremos 
+pois ja foi definido o main handlebars com a estrutura html-->
+
+<!--GET - envia as informacoes pela url
+POST -Nao passa os dados pela url -->
+
+<!--No action informa para qual rota quero 
+enviar os dados do formulario-->
+
+<!--/add rota que recebera as informacoes preenchidas no formulario-->
+<!--Formulario fa uma requisicao com metodo post-->
