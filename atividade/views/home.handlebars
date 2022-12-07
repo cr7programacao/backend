@@ -1,0 +1,12 @@
+
+<h1> Lista de Posts: </h1>
+{{#each posts}} <!--Para cada (each) postagem faca algo-->
+    <strong>ID:</strong>{{id}}<br>
+    <strong>Cod:</strong>{{cod}}<br>
+    <strong>Produto:</strong> {{produto}}<br>
+    <strong>Propriedades:</strong> {{propriedades}}<br>
+    <strong>Linha:</strong><br>
+    <a href="/deletar/{{id}}"><button>Deletar</button></a> <!--redireciona para um -->
+<hr>
+
+{{/each}}
